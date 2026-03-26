@@ -202,4 +202,6 @@ from    dual;
 
 select  sysdate,
         to_char(trunc(sysdate), 'DD/MM/YYYY HH24:MI:SS')
-from    dual
+from    dual;
+
+select  extract(year from sysdate) ano from dual;
